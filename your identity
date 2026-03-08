@@ -1,0 +1,9 @@
+herenpx clawhub@latest install verified-agent-identity
+
+cd skills/verified-agent-identity/scripts
+
+npm install
+
+node createNewEthereumIdentity.js
+node manualLinkHumanToAgent.js --challenge '{"name":"My Agent","description":"My personal AI agent"}'
+node manualLinkHumanToAgent.js --challenge "{\"name\":\"My Agent\",\"description\":\"My personal AI agent\"}"
